@@ -34,7 +34,6 @@ span.textlink {
 
 /* All Big "Button" Links */
 a.button:link, a.button:visited {
-  /* background-size: contain; */
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center center;

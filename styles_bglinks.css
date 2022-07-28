@@ -7,19 +7,16 @@ a.tp {
 a.rb {
     background-color: darkred;
     background-image: url('images/rb_cookiecat.png');
-    /* needs to resize art file */
 }
 
 a.th {
     background-color:rebeccapurple;
     background-image: url('images/th_willow.png');
-    /* need busier bg? */
 }
 
 a.s6 {
     background-color: wheat;
     background-image: url('images/s6_chestnut.png');
-    /* need busier bg? */
 }
 
 /* Tablet */
