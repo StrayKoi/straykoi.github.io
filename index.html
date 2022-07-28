@@ -22,8 +22,6 @@
     <link rel="stylesheet" href="styles_main.css">
     <link rel="stylesheet" href="styles_links.css">
     <link rel="stylesheet" href="styles_bglinks.css">
-    <!-- Scripts -->
-    <script src="scripts.js" type="text/JavaScript"></script>
     <!-- Fonts -->
     <link href="https://fonts.googleapis.com/css2?family=Karla:wght@400;700" rel="stylesheet">
     <!-- Icons -->
@@ -146,6 +144,29 @@
         </div>
 
     </div>
+
+    <!-- Scripts -->
+    <script>
+        // Back to top script
+        var backtotop = document.getElementById("backtop");
+
+        // When the user scrolls down 25px from the top of the document, show the button
+        window.onscroll = function() {scrollFunction()};
+
+        function scrollFunction() {
+        if (document.body.scrollTop > 25 || document.documentElement.scrollTop > 25) {
+            backtotop.style.display = "block";
+        } else {
+            backtotop.style.display = "none";
+        }
+        }
+
+        // When the user clicks on the button, scroll to the top of the document
+        function topFunction() {
+        document.body.scrollTop = 0;
+        document.documentElement.scrollTop = 0;
+        }
+    </script>
 
 </body>
 </html>
