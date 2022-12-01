@@ -1,22 +1,17 @@
 a.tp {
     background-color: darkslategrey;
-    background-image: url('images/tp_lovelikeyou.png');
+    background-image: url('images/links/tp_lovelikeyou.png');
     /* needs to resize art file */
 }
 
 a.rb {
     background-color: darkred;
-    background-image: url('images/rb_cookiecat.png');
+    background-image: url('images/links/rb_cookiecat.png');
 }
 
 a.th {
-    background-color:rebeccapurple;
-    background-image: url('images/th_willow.png');
-}
-
-a.s6 {
     background-color: wheat;
-    background-image: url('images/s6_chestnut.png');
+    background-image: url('images/links/th_chestnut.png');
 }
 
 /* Tablet */

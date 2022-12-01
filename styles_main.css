@@ -10,7 +10,7 @@ body {
   max-width: 90%;
   padding: 10px;
   padding-bottom: 130px; /* for the background image */
-  background-image: url("images/bgkoi_mobile.png");
+  background-image: url("images/main/bgkoi_mobile.png");
   background-repeat: no-repeat;
   background-attachment: absolute,;
   background-position: bottom;
@@ -80,7 +80,7 @@ hr.specialdots {
 /* Desktop */
 @media only screen and (min-width: 1200px) {
   body {
-    background-image: url("images/bgkoi.png"), url("images/bgpattern.png");
+    background-image: url("images/main/bgkoi.png"), url("images/main/bgpattern.png");
     background-repeat: no-repeat, no-repeat;
     background-attachment: fixed;
     background-position: bottom left, top 40px right;
