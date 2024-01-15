@@ -1,6 +1,6 @@
 /* Regular Links */
 a:link, a:visited {
-  color: #7e2902;
+  color: #111;
   text-decoration: none;  /* removes underline */
 }
 a:hover, a:active {  /* a:active for when tapped/clicked on */
@@ -89,6 +89,6 @@ div.focus:hover {
   }
   a.misc:link, a.misc:visited {
     height: auto; /* clear inherit from a.button */
-    min-height: 25px;
+    min-height: 180px;
   }
 }
